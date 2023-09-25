@@ -1,0 +1,42 @@
+body {
+    background-color: grey;
+}
+table {
+    background-color: rgb(53, 73, 110);
+    border-radius: 50px;
+}
+figcaption {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+table figcaption {
+    opacity: 0;
+}
+#cow {
+    transform: translateX(220px) translateY(140px);
+}
+#horse {
+    transform: translateX(0) translateY(140px);
+}
+#pig {
+    transform: translateX(225px) translateY(-65px);
+}
+#goat {
+    transform: translateX(-210px) translateY(140px);
+}
+#sheep {
+    transform: translateX(-210px) translateY(-65px);
+}
+#rabbit {
+    transform: translateX(220px) translateY(-270px);
+}
+#cat {
+    transform: translateX(0) translateY(-270px);
+}
+#dog {
+    transform: translateX(-210px) translateY(-270px);
+}
+table figcaption:target  {
+    opacity: 1;
+}
